@@ -254,6 +254,14 @@ def run_treemap_file_system(path: str) -> None:
 
 
 if __name__ == '__main__':
-    visualizer = View()
-    PATH_TO_VISUALISE = os.path.join(os.getcwd(), 'example-directory', 'workshop')
-    run_treemap_file_system(PATH_TO_VISUALISE)
+    while True:
+        user_input = input("Enter Directory Name: ")
+
+        if os.path.exists(user_input) and os.path.isdir(user_input):
+            visualizer = View()
+            PATH_TO_VISUALISE = os.path.join(os.getcwd(), user_input)
+            run_treemap_file_system(PATH_TO_VISUALISE)
+            break
+
+        else:
+            print(f"the directory {user_input} does not exist.")
