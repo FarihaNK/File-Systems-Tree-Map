@@ -23,18 +23,22 @@ The File Systems Tree Map provides a visual representation of directory structur
 
 1. **Enter Directory Name**: Type in the name of a directory within the root directory.
 
-2. **Explore Treemap**: Navigate the treemap by clicking on rectangles to view contents.
-
-3. **Perform File Operations**: Use the provided controls to duplicate, delete, copy, paste, and move files or folders.
-
-
-![File Systems Tree Map](/screenshots/treemap.png)
+![File Systems Tree Map](/screenshots/directory.png)
 
 *Explore directory structures with a colorful and interactive treemap.*
 
-![File Operations](/screenshots/file_operations.png)
+2. **Explore Treemap**: Navigate the treemap by clicking on rectangles to view contents.
+
+![File Systems Tree Map](/screenshots/visualizer.png)
+
+*Explore directory structures with a colorful and interactive treemap.*
+
+3. **Perform File Operations**: Use the provided controls to duplicate, delete, copy, paste, and move files or folders.
+
+![File Operations](/screenshots/manipulate.png)
 
 *Perform file operations such as duplicating, deleting, copying, pasting, and moving.*
+
 
 ## Usage
 
